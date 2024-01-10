@@ -40,5 +40,6 @@ pbmc$sex <- sex
 pbmc$age <- age
 pbmc$sampleID <- sampleID
 
-saveRDS(pbmc, file = "/Users/sitakaranpatel/Documents/resume learn/shiny2/filltered_gene_bc_matrices/seurat_object.rds")
+# Save the seurat obejct
+saveRDS(pbmc, file = "path/to/directory/seurat_object.rds")
 
