@@ -6,11 +6,11 @@ This Shiny app facilitates the analysis of single-cell RNA sequencing (scRNAseq)
 
  Key features include:
 
--Upload a Seurat object file (.rds)
--Generate UMAP plot colored by metadata column
--Visualize expression of selected gene
--Download UMAP plot and gene expression plot
--Reset app state
+- Upload a Seurat object file (.rds)
+- Generate UMAP plot colored by metadata column
+- Visualize expression of selected gene
+- Download UMAP plot and gene expression plot
+- Reset app state
 
 ## Installation
 [App link](https://ndd0wk-sita0karan-patel.shinyapps.io/shiny2)
@@ -48,7 +48,7 @@ runApp("your_app_directory")
 ![Home Page](/Images/homepage.png)
 
 ## Tab 2: scRNAseq Analyzer
-![UMAP based on user selected metadata values](https://github.com/sitakaranpatel/scRNAseq-R-Shiny-dashboard/blob/551bba740b8998dfd58265c7e4a6129adf11669b/Images/feature%20plot.png)
+![UMAP based on user selected metadata values](/Images/umap.png)
 
 ![Feauture plot of the user  seleted gene](/Images/feature%20plot.png)
 
