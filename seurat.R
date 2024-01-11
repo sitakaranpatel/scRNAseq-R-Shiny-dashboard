@@ -1,7 +1,35 @@
-# Following this tut: https://satijalab.org/seurat/articles/pbmc3k_tutorial.html
-library(dplyr)
+# Creation of seurat object from scRNA seq data.
+# Raw Peripheral Blood Mononuclear Cells (PBMC) freely available from 10X Genomics: https://cf.10xgenomics.com/samples/cell/pbmc3k/pbmc3k_filtered_gene_bc_matrices.tar.gz
+# Seurat tutorial: https://satijalab.org/seurat/articles/pbmc3k_tutorial.html
+
+
+# Install and load required libraries if not already installed
+if (!requireNamespace("shiny", quietly = TRUE)) {
+  install.packages("shiny")
+}
+if (!requireNamespace("shinydashboard", quietly = TRUE)) {
+  install.packages("shinydashboard")
+}
+if (!requireNamespace("shinyjs", quietly = TRUE)) {
+  install.packages("shinyjs")
+}
+if (!requireNamespace("Seurat", quietly = TRUE)) {
+  install.packages("Seurat")
+}
+if (!requireNamespace("shinydashboardPlus", quietly = TRUE)) {
+  install.packages("shinydashboardPlus")
+}
+if (!requireNamespace("shinyWidgets", quietly = TRUE)) {
+  install.packages("shinyWidgets")
+}
+
+# Load libraries
+library(shiny)
+library(shinydashboard)
+library(shinyjs)
 library(Seurat)
-library(patchwork)
+library(shinydashboardPlus)
+library(shinyWidgets)
 
 # Load the PBMC dataset
 pbmc.data <- Read10X(data.dir = r"(C:\Users\Oscar Wright\Documents\youtube\RShiny_dashboard\pbmc3k_filtered_gene_bc_matrices\filtered_gene_bc_matrices\hg19)")
@@ -40,6 +68,6 @@ pbmc$sex <- sex
 pbmc$age <- age
 pbmc$sampleID <- sampleID
 
-# Save the seurat obejct
-saveRDS(pbmc, file = "path/to/directory/seurat_object.rds")
+# Save the seurat object
+saveRDS(pbmc, file = "/Users/sitakaranpatel/Documents/resume learn/shiny2/filltered_gene_bc_matrices/seurat_object.rds")
 
