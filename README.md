@@ -1,4 +1,5 @@
 # scRNAseq Seurat Analysis Shiny App
+
 This Shiny app facilitates the analysis of single-cell RNA sequencing (scRNAseq) data using the Seurat package in R.
 
 ##  Features
@@ -22,33 +23,33 @@ cd your_app
 
 2. **Run the Shiny app:**
 ```
-```
 library(shiny)
 runApp("your_app_directory")
-```
 ```
 
 ## How to Use This App
 
-1. **Upload Seurat Object:**
+ **Upload Seurat Object:**
    - Use the "Upload File" button to upload your Seurat object (in `.rds` format).
   
-2. **Run Analysis:**
-   - Press the "Run" button to initiate the analysis.
-   - Explore UMAP plots and gene expression features in the generated tabs.
-   - Press "Run" - this will generate the analysis
-   - Select a metadata column to color the UMAP plot
-   - Select a gene to visualize expression
-   - Download plots using the download buttons
+ **Run Analysis:**
+ - Press the "Run" button to initiate the analysis.
+ - Explore UMAP plots and gene expression features in the generated tabs.
+ - Press "Run" - this will generate the analysis. 
+ - Select a metadata column to color the UMAP plot.
+ - Select a gene to visualize expression.
+ - Download plots using the download buttons.
 
-3. **Reset Inputs:**
-   - To clear input files and remove all tabs, press the "Reset" button.
+ **Reset Inputs:**
+ - To clear input files and remove all tabs, press the "Reset" button.
 
-### Tab 1: Home Page
+
+## Tab 1: Home Page
 ![Home Page](/images/home_page.png)
 
-### Tab 2: scRNAseq Analyzer
+## Tab 2: scRNAseq Analyzer
 ![UMAP based on user selected metadata values](/images/scRNAseq_analyzer.png)
+
 ![Feauture plot of the user  seleted gene](/images/scRNAseq_analyzer.png)
 
 
