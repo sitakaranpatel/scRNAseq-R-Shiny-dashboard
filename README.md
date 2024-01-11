@@ -45,12 +45,12 @@ runApp("your_app_directory")
 
 
 ## Tab 1: Home Page
-![Home Page](/images/homepage.png)
+![Home Page](/Images/homepage.png)
 
 ## Tab 2: scRNAseq Analyzer
-![UMAP based on user selected metadata values](/images/umap.png)
+![UMAP based on user selected metadata values](https://github.com/sitakaranpatel/scRNAseq-R-Shiny-dashboard/blob/551bba740b8998dfd58265c7e4a6129adf11669b/Images/feature%20plot.png)
 
-![Feauture plot of the user  seleted gene](/images/feature%20plot.png)
+![Feauture plot of the user  seleted gene](/Images/feature%20plot.png)
 
 
 ## File Overview
