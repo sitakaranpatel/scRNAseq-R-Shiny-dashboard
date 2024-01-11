@@ -1,3 +1,12 @@
+# Load libraries
+library(shiny)
+library(shinydashboard)
+library(shinyjs)
+library(Seurat)
+library(shinydashboardPlus)
+library(shinyWidgets)
+library(dplyr)
+
 # Increase maximum file upload size to 50MB
 options(shiny.maxRequestSize = 300*1024^2)
 
@@ -169,4 +178,5 @@ shinyApp(ui, server)
 
 
 # By default, Shiny limits file uploads to 5MB per file. You can modify this limit by using the shiny.maxRequestSize option. For example, adding options(shiny.maxRequestSize=30*1024^2) to the top of server.R would increase the limit to 30MB.
+
 # shinyjs lets you perform common useful JavaScript operations in Shiny applications without having to know any JavaScript
