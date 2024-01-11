@@ -45,12 +45,12 @@ runApp("your_app_directory")
 
 
 ## Tab 1: Home Page
-![Home Page](/images/home_page.png)
+![Home Page](/images/homepage.png)
 
 ## Tab 2: scRNAseq Analyzer
-![UMAP based on user selected metadata values](/images/scRNAseq_analyzer.png)
+![UMAP based on user selected metadata values](/images/umap.png)
 
-![Feauture plot of the user  seleted gene](/images/scRNAseq_analyzer.png)
+![Feauture plot of the user  seleted gene](/images/feature%20plot.png)
 
 
 ## File Overview
