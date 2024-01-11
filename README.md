@@ -12,6 +12,7 @@ This Shiny app facilitates the analysis of single-cell RNA sequencing (scRNAseq)
 - Download UMAP plot and gene expression plot
 - Reset app state
 
+
 ## Installation
 [App link](https://ndd0wk-sita0karan-patel.shinyapps.io/shiny2)
 
@@ -26,6 +27,7 @@ cd your_app
 library(shiny)
 runApp("your_app_directory")
 ```
+
 
 ## How to Use This App
 
@@ -51,6 +53,7 @@ runApp("your_app_directory")
 ![UMAP based on user selected metadata values](/Images/umap.png)
 
 ![Feauture plot of the user  seleted gene](/Images/feature%20plot.png)
+
 
 
 ## File Overview
