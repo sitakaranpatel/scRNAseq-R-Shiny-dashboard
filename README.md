@@ -55,7 +55,6 @@ runApp("your_app_directory")
 ![Feauture plot of the user  seleted gene](/Images/feature%20plot.png)
 
 
-
 ## File Overview
 
 The app consists of 3 main code files:
