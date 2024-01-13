@@ -2,6 +2,8 @@
 
 This Shiny app facilitates the analysis of single-cell RNA sequencing (scRNAseq) data using the Seurat package in R.
 
+[App link](https://ndd0wk-sita0karan-patel.shinyapps.io/shiny2)
+
 ##  Features
 
  Key features include:
@@ -14,7 +16,6 @@ This Shiny app facilitates the analysis of single-cell RNA sequencing (scRNAseq)
 
 
 ## Installation
-[App link](https://ndd0wk-sita0karan-patel.shinyapps.io/shiny2)
 
 1. **Clone the repository:**
 ```
